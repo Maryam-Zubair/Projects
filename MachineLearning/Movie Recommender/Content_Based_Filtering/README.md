@@ -17,13 +17,17 @@ git clone
 ### Istall Dependencies
 Ensure Python is installed on your system.
 Install required Python packages:
+```bash
 pip install flask pandas scikit-learn
+```
 ### Data Preparation
 Download the TMDB 5000 Movie Dataset.
 Place tmdb_5000_movies.csv and tmdb_5000_credits.csv in the project directory.
 ### Running the Application
 Start the Flask server:
+```bash
 python app.py
+```
 Access the web application at http://127.0.0.1:5000/.
 
 ## Usage
