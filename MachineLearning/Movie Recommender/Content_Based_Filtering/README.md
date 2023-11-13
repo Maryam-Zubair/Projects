@@ -28,7 +28,7 @@ Place tmdb_5000_movies.csv and tmdb_5000_credits.csv in the project directory.
 ### Running the Application
 Start the Flask server:
 ```bash
-python app.py
+python3 movie_app.py
 ```
 Access the web application at http://127.0.0.1:5000/.
 
