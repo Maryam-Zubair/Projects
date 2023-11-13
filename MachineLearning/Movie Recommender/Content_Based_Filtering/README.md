@@ -33,9 +33,15 @@ python app.py
 Access the web application at http://127.0.0.1:5000/.
 
 ## Usage
-Access the Web Interface: Open your browser and go to http://127.0.0.1:5000/.
-Movie Recommendation: Enter the name of a movie you like in the search box and click "Recommend".
-View Recommendations: The system will display a list of recommended movies based on content similarity.
+
+Access the Web Interface:
+Open your browser and go to http://127.0.0.1:5000/.
+
+Movie Recommendation:
+Enter the name of a movie you like in the search box and click "Recommend".
+
+View Recommendations:
+The system will display a list of recommended movies based on content similarity.
 
 ## Technologies Used
 Python: Primary programming language for the recommender algorithm.
