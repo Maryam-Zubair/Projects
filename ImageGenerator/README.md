@@ -34,5 +34,5 @@ Before running the application, make sure you have the following installed:
    ```
 4. Run Application:
    ```bash
-    npm i express --save-dev nodemon
+    npm run start
    ```
