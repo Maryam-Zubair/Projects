@@ -2,24 +2,10 @@
 
 This project is a Resume Entity Extractor that utilizes a customized spaCy model for extracting general entities (e.g., name, phone, email, skills) and the Mistral model specifically tailored for extracting experience details from resumes.
 
-## Table of Contents
-
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Customized spaCy Model](#customized-spacy-model)
-- [Mistral Model](#mistral-model)
-- [Example](#example)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - Entity extraction from resumes using a customized spaCy model.
-- Specific extraction of experience details using the Mistral model.
+- Specific extraction of Work Experience details using the Mistral model.
 - Extracted entities include name, phone, email, skills, and more.
 
 ## Getting Started
@@ -38,3 +24,10 @@ Before running the application, make sure you have the following installed:
 
    ```bash
    git clone https://github.com/your-username/resume-entity-extractor.git
+   ```
+2. Download Spacy Model:
+   
+```bash
+  python -m spacy download en_core_web_sm
+```
+
