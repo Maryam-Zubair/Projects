@@ -21,4 +21,4 @@ Before running the application, make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-image-generator.git
+   git@github.com:Maryam-Zubair/Projects.ImageGenerator.git
