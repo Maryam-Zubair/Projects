@@ -1,8 +1,8 @@
 
 # Movie Recommender System
 
-## Overview
-This movie recommender system is a content-based filtering application that suggests movies based on the similarity of their content. It utilizes a dataset from TMDB (The Movie Database) and recommends movies considering features such as genres, overviews, spoken languages, cast, and crew details. Built with Python and Flask, this project offers a user-friendly web interface for easy interaction.
+## Overview 
+This movie recommender system is a 'content-based filtering' application that suggests movies based on the similarity of their content. It utilizes a dataset from TMDB (The Movie Database) and recommends movies considering features such as genres, overviews, spoken languages, cast, and crew details. Built with Python and Flask, this project offers a user-friendly web interface for easy interaction.
 
 ## Features
 - Content-Based Filtering: Utilizes movie content for recommendations.
