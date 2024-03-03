@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #5CDB95 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #5CDB95;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #5CDB95;
+    font-weight: bold;
+}
+
+.movie {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.movie img {
+    float: left;
+    width: 70px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.movie h4 {
+    margin: 0 0 5px 0; /* Adjust bottom margin to create space between title and description */
+    padding-top: 10px;
+}
+
+.movie p {
+    margin: 0; /* Remove margin to keep the text closer */
+    font-style: italic;
+}
+
+.movie strong {
+    font-weight: bold; /* Make the "Description:" text bold */
+}
+
+.movie:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Search Box Style */
+.search-box {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    padding: 20px;
+    text-align: center;
+}
+
+.search-box input[type="text"], .search-box button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-box button {
+    background-color: #5CDB95;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #379683;
+}
