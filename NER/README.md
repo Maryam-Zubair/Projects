@@ -23,7 +23,7 @@ Before running the application, make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/resume-entity-extractor.git
+   git@github.com:Maryam-Zubair/Projects.NER.git
    ```
 2. Download Spacy Model:
    
