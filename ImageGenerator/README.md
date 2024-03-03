@@ -22,3 +22,17 @@ Before running the application, make sure you have the following installed:
 
    ```bash
    git@github.com:Maryam-Zubair/Projects.ImageGenerator.git
+   ```
+
+2. Initialize Project:
+   ```bash
+   npm init - y
+   ```
+3. Isntall Dependencies:
+   ```bash
+   npm install express --save-dev nodemon
+   ```
+4. Run Application:
+   ```bash
+    npm i express --save-dev nodemon
+   ```
