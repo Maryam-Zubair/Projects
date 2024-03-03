@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2B2A4C;
+    /* Dark blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Login and Signup Container */
+.signup-container {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    /* Increased padding for better spacing */
+    background-color: #fff;
+    /* White background for the form */
+    border: 1px solid #ccc;
+    /* Grey border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Slightly increased shadow */
+    background-color: #f0f0f0;
+    /* Light grey background */
+}
+
+/* Specific Styles for Signup */
+#signupContainer {
+    background-color: #f0f0f0;
+    /* Light grey background */
+    color: #333;
+    /* Dark text for readability */
+}
+
+/* Form Elements */
+.signup-container input[type="email"],
+.signup-container input[type="text"],
+/* Updated selector to target text input */
+.signup-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    /* Increased padding for better input spacing */
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+.signup-container button {
+    width: 100%;
+    padding: 12px;
+    /* Increased padding for better button appearance */
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    /* Blue background for buttons */
+    color: white;
+    cursor: pointer;
+}
+
+.signup-container button:hover {
+    background-color: #0b5cad;
+    /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .signup-container {
+        width: 90%;
+    }
+}
+
+
+/* Login and Signup Container */
+.login-container {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    /* Increased padding for better spacing */
+    background-color: #fff;
+    /* White background for the form */
+    border: 1px solid #ccc;
+    /* Grey border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Slightly increased shadow */
+    background-color: #f0f0f0;
+    /* Light grey background */
+}
+
+/* Specific Styles for Login */
+#loginContainer {
+    background-color: #f0f0f0;
+    /* Light grey background */
+    color: #333;
+    /* Dark text for readability */
+}
+
+/* Form Elements */
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    /* Increased padding for better input spacing */
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    /* Increased padding for better button appearance */
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    /* Blue background for buttons */
+    color: white;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0b5cad;
+    /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .login-container {
+        width: 90%;
+    }
+}
