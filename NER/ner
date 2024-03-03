@@ -1,0 +1,20 @@
+FROM mistral
+
+# Set the temperature
+PARAMETER temperature 0
+
+# Set system prompt
+SYSTEM """
+I'm specifically interested in extracting only Experience mentioned in the given text in the below mention format. 
+- Company Name only
+- Years worked
+- Designation
+
+# Sample response format should be
+Google : Company 
+2016 to 2020 : Experience Years
+Software Engineer : Designation
+
+Please focus only on these elements and avoid including extra information
+"""
+
