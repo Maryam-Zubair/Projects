@@ -7,14 +7,6 @@ Follow these steps to set up the project:
    ```bash
         git clone https://github.com/Alami64/Capstone_resume_project.git
    ```
-## Install LLM Ollama
-1. Download and Install Ollama on your computer from website: https://ollama.com
-
-2. Using command line made custom prompt for model Resume :  Ollama create resume -f ./resume
-3. Run Ollama on the backend
-   ```bash
-   ollama list
-   ```
 
 ## Backend
 1. Create a new virtual environment:
