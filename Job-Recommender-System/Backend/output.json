@@ -1,0 +1,55 @@
+{
+  "name": "Alami Afilal",
+  "location": "San Leandro, CA",
+  "email": "alamiafilal94@gmail.com",
+  "phone": "510-730-5666",
+  "education": [
+    {
+      "school": "San Francisco Bay University",
+      "degree": "M.S. in Computer Science",
+      "graduation_year": "2022-2024"
+    },
+    {
+      "school": "California State University East Bay",
+      "degree": "M.S. in Construction Management",
+      "graduation_year": "2021-2022"
+    },
+    {
+      "school": "San Jose State University",
+      "degree": "B.S. in Civil Engineering",
+      "graduation_year": "2017-2020"
+    }
+  ],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "HTML/CSS",
+    "SQL",
+    "ReactJS",
+    "Langchain",
+    "Flask",
+    "Pytorch",
+    "NumPy",
+    "Pandas",
+    "Git",
+    "Terminal",
+    "Docker"
+  ],
+  "experience": [
+    {
+      "company": "University X",
+      "designation": "Project Management Intern",
+      "years": "Jun 2022 - Aug 2022"
+    },
+    {
+      "company": "Lusardi Construction",
+      "designation": "Shift Lead",
+      "years": "Nov 2018 - present"
+    },
+    {
+      "company": "Superior Gas and Carwash",
+      "designation": "Project Management Intern",
+      "years": "Jun 2022 - Aug 2022"
+    }
+  ]
+}
