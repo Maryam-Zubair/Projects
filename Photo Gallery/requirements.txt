@@ -1,0 +1,5 @@
+Django
+djangorestframework==3.12.4
+Pillow==8.3.1
+django-cors-headers
+react-router-dom
