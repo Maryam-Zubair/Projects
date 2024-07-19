@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+const API_BASE_URL = 'http://3.145.215.140:8000';
+
+
 
 const AddPhoto = ({ onPhotoAdded }) => {
   const [image, setImage] = useState(null);
@@ -16,7 +19,7 @@ const AddPhoto = ({ onPhotoAdded }) => {
     formData.append('people_in_photo', peopleInPhoto);
 
     try {
-      await axios.post('http://localhost:8000/photos/add/', formData, {
+      await axios.post(`${API_BASE_URL}/photos/add/`, formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       onPhotoAdded();
