@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const API_BASE_URL = 'http://3.84.1.254:8000';
 
 const PhotoList = () => {
   const [searchName, setSearchName] = useState('');
@@ -13,7 +12,7 @@ const PhotoList = () => {
   const fetchPhotos = async () => {
     try {
       setError(null);
-      const response = await axios.get(`${API_BASE_URL}/photos/view/`, {
+      const response = await axios.get(`http://localhost:8000/photos/view/`, {
         params: { name: searchName, date: searchDate },
       });
       navigate('/gallery', { state: { photos: response.data } });
