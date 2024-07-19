@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const API_BASE_URL = 'http://3.145.215.140:8000';
+const API_BASE_URL = 'http://3.84.1.254:8000';
 
 const PhotoList = () => {
   const [searchName, setSearchName] = useState('');
