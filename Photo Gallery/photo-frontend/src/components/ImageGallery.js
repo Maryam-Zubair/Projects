@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 
-const API_BASE_URL = 'http://3.145.215.140:8000';
+const API_BASE_URL = 'http://3.84.1.254:8000';
 
 const ImageGallery = () => {
   const location = useLocation();
