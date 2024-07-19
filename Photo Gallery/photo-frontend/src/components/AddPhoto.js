@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-const API_BASE_URL = 'http://3.145.215.140:8000';
+const API_BASE_URL = 'http://3.84.1.254:8000';
 
 
 
