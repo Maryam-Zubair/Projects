@@ -20,8 +20,9 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    "http://photomargallery.s3-website-us-east-1.amazonaws.com"
 ]
+
 
 
 # Quick-start development settings - unsuitable for production
